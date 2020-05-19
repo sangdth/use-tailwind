@@ -1,0 +1,31 @@
+{
+  "name": "use-tailwind",
+  "version": "1.0.0",
+  "description": "Custom hook for working with Tailwind",
+  "main": "dist/index.js",
+  "module": "esm/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "build:cjs": "tsc",
+    "build:es": "tsc -m esNext --outDir esm",
+    "build": "rm -rf ./dist/* ./esm/* && npm run build:cjs && npm run build:es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangdth/use-tailwind.git"
+  },
+  "keywords": [
+    "tailwind",
+    "hook"
+  ],
+  "author": "Sang Dang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sangdth/use-tailwind/issues"
+  },
+  "homepage": "https://github.com/sangdth/use-tailwind#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "typescript": "^3.9.2"
+  }
+}
