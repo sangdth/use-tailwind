@@ -1,6 +1,6 @@
 {
   "name": "use-tailwind",
-  "version": "1.0.0",
+  "version": "1.0.0-beta-01",
   "description": "Custom hook for working with Tailwind",
   "main": "dist/index.js",
   "module": "esm/index.js",
